@@ -1,3 +1,9 @@
+## Scrimba Passenger Counter App (Advanced)
+
+- Module Number 26
+- Increment and Decrement Counter with Dynamic Color Modular CSS
+
+
 ## Pure Vanilla Javascript ECMAScript 10
 
 Standalone Javascript - is a tool where it can renders the same thing as react with Major differences since JS is a Imperative Style.
