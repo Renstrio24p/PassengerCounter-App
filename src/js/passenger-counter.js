@@ -30,20 +30,23 @@ export const PassengerCount = (DOM) => {
 
       CountField.classList.add('smooth-loading');
 
-      if (count < 10) {
-        CountField.classList.remove(`${styles['yellow-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`);
+      if(count < 0) {
+        CountField.classList.remove(`${styles['yellow-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`,`${styles['green-bg']}`);
+        CountField.classList.add(`${styles['violet-bg']}`);
+      } else if (count < 10) {
+        CountField.classList.remove(`${styles['yellow-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`,`${styles['violet-bg']}`);
         CountField.classList.add(`${styles['green-bg']}`);
       } else if (count < 100) {
-        CountField.classList.remove(`${styles['green-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`);
+        CountField.classList.remove(`${styles['green-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`,`${styles['violet-bg']}`);
         CountField.classList.add(`${styles['yellow-bg']}`);
       }  else if (count < 500) {
-        CountField.classList.remove(`${styles['green-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['yellow-bg']}`);
+        CountField.classList.remove(`${styles['green-bg']}`, `${styles['red-bg']}`, `${styles['black-bg']}`,`${styles['yellow-bg']}`,`${styles['violet-bg']}`);
         CountField.classList.add(`${styles['orange-bg']}`);
       } else if (count < 1000) {
-        CountField.classList.remove(`${styles['green-bg']}`, `${styles['yellow-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`);
+        CountField.classList.remove(`${styles['green-bg']}`, `${styles['yellow-bg']}`, `${styles['black-bg']}`,`${styles['orange-bg']}`,`${styles['violet-bg']}`);
         CountField.classList.add(`${styles['red-bg']}`);
       } else {
-        CountField.classList.remove(`${styles['green-bg']}`, `${styles['yellow-bg']}`, `${styles['red-bg']}`,`${styles['orange-bg']}`);
+        CountField.classList.remove(`${styles['green-bg']}`, `${styles['yellow-bg']}`, `${styles['red-bg']}`,`${styles['orange-bg']}`,`${styles['violet-bg']}`);
         CountField.classList.add(`${styles['black-bg']}`);
       }
     }, 50);
