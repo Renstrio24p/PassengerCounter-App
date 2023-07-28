@@ -55,6 +55,11 @@
 	color: black;
 }
 
+.violet-bg {
+	background-color: rgb(56, 30, 56);
+	color: white;
+}
+
 .green-bg {
 	background-color: green;
 	color: white;
