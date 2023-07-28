@@ -1,0 +1,85 @@
+
+
+.increment-btn,
+.decrement-btn,
+.save-btn {
+	cursor: pointer;
+	transition: 0.5s;
+	font-weight: 600;
+}
+
+.increment-btn {
+	background: darkred;
+}
+
+.increment-btn:hover {
+	background: rgb(197, 53, 53);
+}
+
+.decrement-btn {
+	background: rgb(29, 94, 94);
+}
+
+.decrement-btn:hover {
+	background: rgb(68, 197, 197);
+	color: black;
+}
+
+.save-btn {
+	background: darkgreen;
+}
+.save-btn:hover {
+	background: rgb(45, 172, 45);
+}
+
+.smooth-loading {
+	transition: opacity 1s;
+}
+
+
+
+.card {
+	padding: 5px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card:hover {
+	background-color: rgb(238, 238, 146);
+	color: black;
+}
+
+.green-bg {
+	background-color: green;
+	color: white;
+  }
+  
+  .yellow-bg {
+	background-color: yellow;
+	color: black;
+  }
+
+  .orange-bg {
+	background-color: orange;
+  }
+  
+  .red-bg {
+	background-color: red;
+	color: white;
+	
+  }
+  
+  .black-bg {
+	background-color: black;
+	color: white;
+  }
+
+  .card .black-bg {
+	font-size: 20px;
+  }
