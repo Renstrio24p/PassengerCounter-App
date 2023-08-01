@@ -15,6 +15,8 @@ export const PassengerCount = (DOM) => {
   SaveBTN = DOM.querySelector('#save-btn');
   SaveEL = DOM.querySelector('#save-el');
 
+  IncrementBTN.addEventListener('click', startIncrement)
+  IncrementBTN.addEventListener('click', stopIncrement)
   IncrementBTN.addEventListener('mousedown', startIncrement);
   IncrementBTN.addEventListener('mouseup', stopIncrement);
   IncrementBTN.addEventListener('mouseout', stopIncrement);
